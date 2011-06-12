@@ -1,0 +1,5 @@
+<content>
+<menumain path="highl" menuname="Highlights" hascontent="false" introtext="" width="0" height="0">
+	<menusub path="highl,onnet" menuname="On-net Tarif" hascontent="true" introtext="" width="400" height="400"/>
+</menumain>
+</content>
