@@ -1,0 +1,3 @@
+/** * @author gerd */import com.adgamewonderland.eplus.base.tarifberater.interfaces.IZustand;
+class com.adgamewonderland.eplus.base.tarifberater.beans.Konfiguration {	
+	private var start : IZustand;		private var ende : IZustand;		private var client : Number;		public function Konfiguration(aStart : IZustand, aEnde : IZustand, aClient : Number ) {		this.start = aStart;		this.ende = aEnde;		this.client = aClient;	}	public function getStart() : IZustand {		return this.start;	}		public function getEnde() : IZustand {		return this.ende;	}		public function getClient() : Number {		return this.client;	}		public function toString() : String {		return "com.adgamewonderland.eplus.base.tarifberater.beans.Konfiguration";	}}
