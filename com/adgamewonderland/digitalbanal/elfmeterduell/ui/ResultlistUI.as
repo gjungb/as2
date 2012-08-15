@@ -39,10 +39,10 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.ui.ResultlistUI extends Mo
 		// einblenden
 		_visible = true;
 		// anzeigen
-		showResultlist(Array(re.result));
+		showResultlist(re.result);
 	}
 	
-	private function showResultlist(resultlist:Array ):Void
+	private function showResultlist(resultlist ):Void
 	{
 		// dummy
 		var dummy:MovieClip = list_mc.dummy_mc;

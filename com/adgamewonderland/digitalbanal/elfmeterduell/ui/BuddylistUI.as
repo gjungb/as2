@@ -41,10 +41,10 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.ui.BuddylistUI extends Mov
 	public function onBuddylistLoaded(re:ResultEvent ):Void
 	{
 		// anzeigen
-		showBuddylist(Array(re.result));
+		showBuddylist(re.result);
 	}
 	
-	private function showBuddylist(buddylist:Array ):Void
+	private function showBuddylist(buddylist ):Void
 	{
 		// dummy
 		var dummy:MovieClip = list_mc.dummy_mc;

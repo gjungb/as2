@@ -39,10 +39,10 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.ui.GamelistUI extends Movi
 		// einblenden
 		_visible = true;
 		// anzeigen
-		showGamelist(Array(re.result));
+		showGamelist(re.result);
 	}
 	
-	private function showGamelist(gamelist:Array ):Void
+	private function showGamelist(gamelist ):Void
 	{
 		// dummy
 		var dummy:MovieClip = list_mc.dummy_mc;
