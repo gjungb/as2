@@ -83,10 +83,10 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.ui.HighscoreUI extends Mov
 	public function onHighscorelistLoaded(re:ResultEvent ):Void
 	{
 		// anzeigen
-		showHighscore(Array(re.result));
+		showHighscore(re.result);
 	}
 	
-	private function showHighscore(highscore:Array ):Void
+	private function showHighscore(highscore ):Void
 	{
 		// dummy
 		var dummy:MovieClip = list_mc.dummy_mc;
