@@ -15,7 +15,7 @@ import com.meychi.MD5;
 
 class com.adgamewonderland.digitalbanal.elfmeterduell.connectors.ChallengeC {
 	
-	private static var myGatewayURL:String = "http://plasticbox:8080/itsyourgame_tvblemgo/gateway";
+	private static var myGatewayURL:String = "https://itsyourgame-drgerd.rhcloud.com/itsyourgame/gateway";
 	
 	private static var myRemoteObject:String = "com.adgamewonderland.digitalbanal.elfmeterduell.connectors.ChallengeConnector";
 	
@@ -140,7 +140,7 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.connectors.ChallengeC {
 			// debugger
 //			NetDebug.initialize();
 			// offline / online
-			if (_url.indexOf("http://") == -1) {
+			if (_url.indexOf("http://") == -1 && _url.indexOf("https://") == -1) {
 				// remoting service mit url
 				myService = new Service(myGatewayURL, null, myRemoteObject, null, null);
 			} else {

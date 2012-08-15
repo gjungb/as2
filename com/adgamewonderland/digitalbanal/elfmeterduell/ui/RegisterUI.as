@@ -12,13 +12,15 @@ import com.adgamewonderland.agw.*;
 
 import com.adgamewonderland.agw.net.*;
 
-import com.adgamewonderland.agw.util.*;
+import com.adgamewonderland.agw.util.TimelineFollower;
 
 import com.adgamewonderland.digitalbanal.elfmeterduell.beans.*;
 
 import com.adgamewonderland.digitalbanal.elfmeterduell.connectors.*;
 
-import com.adgamewonderland.digitalbanal.elfmeterduell.ui.*;
+import com.adgamewonderland.agw.util.CheckboxUI;
+
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.InputUI;
 
 class com.adgamewonderland.digitalbanal.elfmeterduell.ui.RegisterUI extends InputUI {
 	
