@@ -6,7 +6,13 @@ import com.adgamewonderland.agw.util.*;
 
 import com.adgamewonderland.digitalbanal.elfmeterduell.beans.*;
 
-import com.adgamewonderland.digitalbanal.elfmeterduell.ui.*;
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.ResultaniUI;
+
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.InterstitialUI;
+
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.NoticeUI;
+
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.CardUI;
 
 class com.adgamewonderland.digitalbanal.elfmeterduell.ui.ResultUI extends MovieClip implements IUserListener {
 	

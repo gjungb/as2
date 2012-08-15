@@ -41,7 +41,7 @@ class com.adgamewonderland.digitalbanal.elfmeterduell.ui.BuddylistUI extends Mov
 	public function onBuddylistLoaded(re:ResultEvent ):Void
 	{
 		// anzeigen
-		showBuddylist(re.result);
+		showBuddylist(Array(re.result));
 	}
 	
 	private function showBuddylist(buddylist:Array ):Void

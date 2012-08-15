@@ -6,7 +6,9 @@ import com.adgamewonderland.agw.util.*;
 
 import com.adgamewonderland.digitalbanal.elfmeterduell.beans.*;
 
-import com.adgamewonderland.digitalbanal.elfmeterduell.ui.*;
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.InterstitialUI;
+
+import com.adgamewonderland.digitalbanal.elfmeterduell.ui.SoccerUI;
  
 class com.adgamewonderland.digitalbanal.elfmeterduell.ui.InterstitialsUI extends MovieClip {
 	
